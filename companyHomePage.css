@@ -5,7 +5,6 @@ body{
     background-color: white;
     font-size: 22px;
     text-align: center;
-    letter-spacing: 6px;
 }
 
 h2, h3, h4, p {
@@ -46,4 +45,63 @@ a{
     margin: auto;
     background-color: white;
     width: 100%;
+}
+
+.portfolio{
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.companies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.company{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.company img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+
+.company span{
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team{
+    background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teammate{
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+
+.teammate img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+.content ,.copyright{
+    padding-top: 20px;
 }
